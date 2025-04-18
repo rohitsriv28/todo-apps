@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+
+    <title>EverDo</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Header Bar -->
+      <div class="header-bar">
+        <a href="#" class="logo-link">
+          <img src="images/everdo-logo.svg" alt="EverDo" class="logo-svg" />
+        </a>
+      </div>
+
+      <!-- Date Selector -->
+      <div class="date-selector">
+        <button class="date-nav-btn" id="prev-day-btn">
+          <i class="fas fa-chevron-left"></i>
+        </button>
+        <div class="date-container" id="date-container">
+          <div class="day-name">Day</div>
+          <div class="date-circle">
+            <div class="date-number">00</div>
+          </div>
+          <div class="month-name">Month</div>
+        </div>
+        <button class="date-nav-btn" id="next-day-btn">
+          <i class="fas fa-chevron-right"></i>
+        </button>
+      </div>
+
+      <!-- Progression Bar -->
+      <div class="progression-container">
+        <div class="progression-title">Today's Progress</div>
+        <div class="progress-bar">
+          <div class="progress-fill" id="progress-fill"></div>
+        </div>
+        <div class="progress-text" id="progress-text">0/0 tasks</div>
+      </div>
+
+      <!-- Task Input -->
+      <div class="task-input-container">
+        <input
+          type="text"
+          class="task-input"
+          id="task-input"
+          placeholder="Add a new task..."
+          autocomplete="off"
+        />
+        <button type="button" class="add-btn" id="add-btn">
+          <i class="fas fa-plus"></i>
+        </button>
+      </div>
+
+      <!-- Tasks Container -->
+      <div class="tasks-container">
+        <ul class="task-list" id="task-list">
+          <!-- Tasks will be added here by JavaScript -->
+        </ul>
+      </div>
+
+      <!-- Action Buttons -->
+      <div class="action-buttons">
+        <button class="action-btn" id="move-today-btn">
+          <i class="fas fa-calendar-day"></i> Move to Today
+        </button>
+        <button class="action-btn" id="finish-day-btn">
+          <i class="fas fa-check-circle"></i> Complete Day
+        </button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
