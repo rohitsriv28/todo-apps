@@ -1,4 +1,4 @@
-# ✨ EverDo - Smart Daily Task Manager
+# 🍃 EverDo - Smart Daily Task Manager
 
 EverDo is a sleek, responsive, and interactive daily task manager built using HTML, CSS, and vanilla JavaScript. It helps users organize their daily tasks with ease, track their productivity, and plan ahead — all in a beautifully designed interface.
 
@@ -85,4 +85,4 @@ This project is open-source and free to use.
 
 ---
 
-Designed with ❤️ for productivity!
+Developed with ❤️‍🔥 for productivity!
